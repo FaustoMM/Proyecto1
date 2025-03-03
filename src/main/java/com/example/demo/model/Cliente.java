@@ -1,6 +1,6 @@
 package com.example.demo.model;
 
-import jakarta.persistence;
+import jakarta.persistence.*;
 
 
 public class Cliente {

@@ -1,7 +1,7 @@
 package com.example.demo.model;
 
 
-import jakarta.persistence;
+import jakarta.persistence.*;
 
 @Entity
 public class Producto { //crea tabla mysql y puede cumplir otras funciones como eliminar, defin los tipos de datos de los atributos//parametros
