@@ -1,8 +1,9 @@
 package com.example.demo.model;
 
 import jakarta.persistence.*;
+// Import java.time.LocalDate;
 
-
+@Entity
 public class Cliente {
    @Id 
    @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -36,7 +37,7 @@ public class Cliente {
     private Integer comprasRealizadas;
 
     @Column
-    private boolean estado;
+    private boolean estado = true;
 
 
     public Cliente(){
