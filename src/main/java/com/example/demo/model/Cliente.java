@@ -6,7 +6,7 @@ import jakarta.persistence.*;
 @Entity
 public class Cliente {
    @Id 
-   @GeneratedValue(strategy = GenerationType.IDENTITY)
+   @GeneratedValue(strategy = GenerationType.IDENTITY) //en esta linea se generan el id automaticamente
     private Integer dni; 
 
     @Column
